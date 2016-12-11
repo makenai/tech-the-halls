@@ -2,7 +2,7 @@
 
 What is an Arduino? This is an Arduino:
 
-![An Arduino Uno](../img/arduino.jpg)
+![An Arduino Uno](img/arduino.jpg)
 
 An Arduino is a very simple computer. It doesn't have a monitor or keyboard, and it can only store and run one app (or program) at a time. You can write a program for it using your normal big computer by connecting it with a USB cable. Once you've saved your program to the Arduino, you can disconnect the cable and just run it on batteries.
 
@@ -24,33 +24,33 @@ Once you've finished installing, be sure to start the Arduino IDE so that you're
 
 Using the provided USB cable connect the Arduino just like this:
 
-![](../img/arduino-hookup.png)
+![hooking up arduino](img/arduino-hookup.png)
 
 ## Tell the IDE where the Arduino is
 
 Now that you're connected the Arduino, you'll need to tell the Arduino IDE which port it is connected to. Go to `Tools -> Port` and look for an option that says `(Arduino/Genuino Uno)` next to it. If you're on a Mac or Linux, this might look like `/dev/cu.usbmodem1412`, while on a Windows PC it might look like `COM4`. While you are in there make sure that the Board setting under `Tools -> Board` is set to `Arduino/Geuino Uno`.
 
-![](../img/select-port.png)
+![selecting a port](img/select-port.png)
 
 ## Upload a sample program and run it
 
 Now let's load an example program into the Arduino. Go to the menu again and select `File -> Examples -> 01. Basics -> Blink`. This will load up the example blink progam into the editor and your screen should look like this:
 
-![](../img/blink-example.png)
+![screenshot of blink source](img/blink-example.png)
 
 Look over the code a little bit if you want, but we'll talk about it shortly. First, let's make the Arduino do something. Hit the Upload button, which looks like an arrow pointing to the right. This one:
 
-![](../img/upload-button.png)
+![upload button](img/upload-button.png)
 
 Give it a few seconds to process. If everything went well, you should see something like this toward the bottom of your window:
 
-![the Arduino IDE has finished uploading](../img/done-uploading.png)
+![the Arduino IDE has finished uploading](img/done-uploading.png)
 
 Note: If you don't see that, something may have gone wrong. Ask one of our volunteers and we'll try to figure it out together!
 
 Look at your Arduino. Hopefully, there is a small blinking light (or LED) next to the L:
 
-![](../img/led-animation.gif)
+![blinking led](img/led-animation.gif)
 
 ## The Program
 
