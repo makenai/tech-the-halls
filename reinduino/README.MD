@@ -1,6 +1,6 @@
 # Advanced Stuff : Reinduino
 
-Reinduino is a somewhat advanced demonstration project that combines, music, motion and sound.
+Reinduino is a somewhat advanced demonstration project that combines, music, motion and sound. It's a little bit more tricky than the other examples because of the timing to do all three of these things at the same time. I'll try to explain everything as I walk you through the code and wiring.
 
 ![](img/reinduino.gif)
 
@@ -8,7 +8,11 @@ Reinduino is a somewhat advanced demonstration project that combines, music, mot
 
 ![](img/reinduino-diagram_bb.png)
 
-Note the use of the breadboard to connect more than one wire to the same 5V and GND pins.
+Note the use of the white breadboard to connect more than one wire to the same 5V and GND pins. Breadboards are small boards that you can plug wires in to connect them together. This is useful when you have two things that need the same pin on the arduino. In the diagram above, both the LED and the motor need the 5V and GND pins on the Arduino.
+
+![](img/breadboard.png)
+
+The yellow lines in the image above show how pins connect vertically, except across the break in the middle.
 
 ## Code
 
