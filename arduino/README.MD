@@ -78,15 +78,15 @@ Arduino programs are divided into two sections. One called `setup` that runs onc
 
 ## Other lines:
 
-#### pinMode(LED_BUILTIN, OUTPUT);
+#### `pinMode(LED_BUILTIN, OUTPUT);``
 
 The Arduino has a bunch of pins or places you can connect wires called GPIO, which stand for `General Purpose Input and Output`. Because they are General Purpose, you'll need to tell the Arduino if you want to use it for INPUT or OUTPUT. That's what this line is doing to the pin called `LED_BUILTIN`, which is hooked up the special internal led. Other pins are called things like `A0` or `9` - see if you can find where they are on the Arduino!
 
-#### digitalWrite(LED_BUILTIN, HIGH);
+#### `digitalWrite(LED_BUILTIN, HIGH);`
 
 When a pin is in output mode, you can turn it on or off by setting it to `HIGH` or `LOW`. This turns the LED on or off.
 
-#### delay(1000);
+#### `delay(1000);`
 
 This line literally does nothing but waste time. Things in the `loop` section run very quickly. If we didn't have a delay line here, the LED would turn on and off so quickly that we wouldn't be able to notice it. In this particular line we are delaying for `1000` milliseconds, or 1 second. If you wanted to delay for half a second, you could change it to `500`.
 

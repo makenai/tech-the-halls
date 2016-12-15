@@ -6,6 +6,6 @@ Welcome to Tech the Halls! This hardware guide is designed to help you make quic
 
 - [Arduino Quick Start](arduino/README.MD)
 - [Making Beepy Music](beeps/README.MD)
-- Reacting to Sound (Make things Listen)
-- Controlling a Servo Motor (Make things Move)
-- Controlling a Light Strip (Make things Blink)
+- [Make things Move](move/README.MD)
+- [Make things Glow](lights/README.MD)
+- [Advanced Stuff : Reinduino](reinduino/README.MD)
